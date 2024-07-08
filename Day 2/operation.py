@@ -32,9 +32,9 @@ weight = input("enter weight in kilograms e.g: 72\n")
 f_height = float(height)
 f_weight = int(weight)
 bmi = f_weight / pow(f_height,2)
-print(int(bmi))
+print(round(bmi,2))
 
-#rounding numbers
+#rounding numbers1.65
 print(round(8/3, 2)) # 2 decimal places
 print(round(2.6666666666666665, 2)) # 2 decimal places
 print(round(2.6666666666666665, 3)) # 3 decimal places
